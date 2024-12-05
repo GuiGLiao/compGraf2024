@@ -735,6 +735,9 @@ void menu(int option) {
             leftElbowAngle = rightElbowAngle = leftLegAngle = rightLegAngle = 0.0f;
             leftKneeAngle = rightKneeAngle = 0.0f;
             anguloQuadril = 0.0f;
+            leftArmAngleZ = 0.0f;
+            rightArmAngleZ = 0.0f;
+
             break;
         case 4: // Aumentar iluminação
             globalLightIntensity = std::min(2.0f, globalLightIntensity + 1.0f);

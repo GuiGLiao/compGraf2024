@@ -7,6 +7,12 @@ RA: 11201920847
 
 Deve ser criado um modelo 3D que simule um objeto articulado, como um braço robótico, uma figura humana simplificada ou outro objeto com partes conectadas. As articulações devem ser controláveis por meio de teclado e mouse, e a cena deve incluir iluminação e texturas aplicadas nas partes do modelo.
 
+### Compilar
+
+```
+g++ -Wall -Iinclude -g projeto.cpp -o projeto.exe -Llib -lopengl32 -lglu32 -lfreeglut
+```
+
 
 ## Projeto
 

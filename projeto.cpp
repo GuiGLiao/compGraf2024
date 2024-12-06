@@ -503,6 +503,7 @@ void keyboard(unsigned char key, int x, int y) {
             rightKneeAngle = 0.0f;
             leftElbowAngle = 0.0f;
             rightElbowAngle = 0.0f;
+            torsoLeanAngle = 0.0f;
             break;
 
         case 'd': // levantar o braço direito horizontalmente
@@ -737,6 +738,7 @@ void menu(int option) {
             anguloQuadril = 0.0f;
             leftArmAngleZ = 0.0f;
             rightArmAngleZ = 0.0f;
+            torsoLeanAngle = 0.0f;
 
             break;
         case 4: // Aumentar iluminação
